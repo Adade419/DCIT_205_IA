@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UG Computer Science Department</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5723c2a014.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="comScience_logo.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">FACULTY</a></li>
+                    <li><a href="entry.html">ENTRY REQUIREMENT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>COMPUTER SCIENCE DEPARTMENT</h1>
+           
+            <a href="about.html" class="firstbutton">About Us</a>
+        </div>
+
+
+    </section>
+ 
+
+
+    <section class="course">
+
+        <h1>Courses We Offer</h1>
+        <p>Explore our array of dynamic learning opportunities, meticulously crafted to prepare you for the forefront of the tech industry.</p>
+
+
+         <div class="row">
+            <div class="course-col">
+                <h3>Short Courses</h3>
+                <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p><br>
+                <a href="intermediate.html">read more...</a>
+            </div>
+
+             <div class="course-col">
+                <h3>Undergraduate programmes</h3>
+                <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.</p><br>
+                <a href="degree.html">read more...</a>
+            </div>
+
+             <div class="course-col">
+                <h3>MPhil and Msc programmes.</h3>
+                <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.</p><br>
+                <a href="postgrad.html">read more...</a>
+            </div>
+            <div class="course-col">
+                <h3>PhD programmes.</h3>
+                <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p><br>
+                <a href="postgrad.html">read more...</a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="campus">
+        
+
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="g4.jpg">
+                <div class="layer">
+                    <h3>Departmental Events</h3>
+                </div>
+            </div>
+
+<div class="campus-col">
+    <img src="under_grad_main.jpg">
+    <div class="layer">
+        <h3>Cumpus life</h3>
+    </div>
+ </div>   
+
+<div class="campus-col">
+    <img src="conglomorate.jpg">
+    <div class="layer">
+        <h3>Competition</h3>
+    </div>
+
+</div>
+</section>
+
+
+
+<section class="testimonials">
+<h1>Short Courses We Offer</h1>
+<p>Curious about student experiences in our CS program? Hear directly from those who've embarked on this transformative journey. Discover their insights, successes, and how this dynamic program has propelled them towards a thriving career in the ever-evolving world of technology.</p>
+<p><a href="student.html">read more</a></p>
+
+
+<div class="row"> 
+<div class="testimonial-col">
+<img src="hunters-race-MYbhN8KaaEc-unsplash.jpg" >
+<div>
+<p>Our instructors have years of industry experience which presents students with a unique opportunity of learning from the bes</p>
+<h3>Expert Instructors</h3>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star-half-stroke"></i>
+
+</div>
+</div>
+
+<div class="testimonial-col">
+<img src="istockphoto-1425457614-1024x1024.jpg" >
+<div>
+<p>You earn a certificate of completion from the department after completing and passing the prescribed exam</p>
+<h3>Certification</h3>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="call">
+<h1>Enroll For Our Various Online Courses Anywhere from The World</h1>
+<a href="online.html" class="firstbutton">CONTACT US</a>
+</section>
+
+
+<footer>
+<section class="footer">
+<h4>About Us</h4>
+<p>"Empowering Innovators. Inspiring Creators. Our CS Department cultivates the next generation of tech leaders through cutting-edge education, hands-on experience, and a dynamic community. Join us in shaping the future of technology."</p>
+
+<div class="icons">
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-x-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+</div>
+
+</section>
+</footer>
+
+
+
+
+
+
+<!--JS-->    
+<script>
+var navLinks=document.getElementById("navLinks")
+
+function showMenu(){
+navLinks.style.right="0";
+}
+
+function hideMenu(){
+navLinks.style.right="-200px";  
+}
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,570 @@
+<!---With UL -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>UG|DEPARTMENT OF COMPUTER SCIENCE</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800vh;
+            font-family: 'Josefin Sans';
+        }
+
+        /*nav */
+        header {
+            padding: 2rem 0rem 1.4rem 0rem;
+            background-color: white;
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 80%;
+            margin: auto;
+        }
+        .control-look{
+    width:300px;
+    margin-left: 300px;
+    font-family: arial;
+    font-size: 30px;
+    display: inline-block;
+}
+.control-look:hover{
+    color: rgb(0, 132, 255);
+}
+.play-with{
+    width:210px;
+    margin-left: 300px;
+    font-family: arial;
+    font-size: 30px;
+    display:inline-block ;
+    
+}
+.come-see{
+    width:210px;
+    margin-left: 450px;
+    font-family: arial;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.come-see:hover{
+    color: rgb(0, 132, 255);
+}
+.hope-la{
+    width:210px;
+    margin-left: 400px;
+    font-family: arial;
+    font-size: 30px;
+    display: inline-block;
+}
+.hope-la:hover{
+    color: rgb(0, 132, 255);
+}
+.play-with:hover{
+    color: rgb(0, 132, 255);
+}
+
+.need-more{
+    width: 2000px;
+    height: 500px;
+    margin-left: 300px;
+}
+.banner-text{
+position: absolute;
+top: 25%;
+color: rgb(247, 242, 242);
+padding-left: 900px;
+padding-top: 100px;
+font-family: arial;
+font-size: 80px;
+}
+.now-okay{
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    color: #2C2A58;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: rgb(240, 255, 103);
+    border-radius: 10px;
+    margin-bottom : 5%;
+    padding: 30px 40px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.footer{
+
+width: 100%;
+text-align: center;
+padding: 30px 0;
+}
+
+.footer h4{
+margin-bottom: 25px;
+margin-top: 20px;
+font-weight: 600;
+}
+
+.icons .fa-brands{
+color: #f44336;
+margin: 0 13px;
+cursor: pointer;
+padding: 18px 0;
+}
+
+.h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+}
+.lets-go{
+    font-size: 30px;
+    color:grey;
+    font-family: arial;
+}
+.asha-wo{
+    font-size: 30px;
+    color:grey;
+    font-family: arial;  
+    display: inline-block;
+    width:700px;
+    margin-left: 25px;
+}
+.kpoo-kpaa{
+  margin-right: 100px;
+  margin-top: 25px;
+    float: right;
+}
+
+.wope-dodo{
+    color:#2C2A58;
+}
+.lose-come{
+    color:#2C2A58; 
+}
+.mad-man{
+    font-size:70px;
+    color:#2C2A58;
+    font-family: arial;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+          height: 30vh;
+            width: 100%;
+}
+.jon-boy{
+    font-size:30px;
+    color:grey;
+    font-family: arial;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+          
+            width: 100%;
+}
+.button {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #0a0a0a;
+    padding: 3px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 1300px;
+    margin-top: 30px;
+    
+}
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: 
+        linear-gradient(115deg,
+        #4fcf70, #fad648, 
+        #a767e5,#12bcfe, 
+        #44ce7b);
+    background-size: 50% 100%;
+    border-radius: inherit;
+}
+.button:hover::before {
+    animation: 
+        animate_border .75s
+        linear infinite;
+}
+
+.button span {
+    position: relative;
+    z-index: 2;
+    display: block;
+    background-color: #faf8f8;
+    padding: 13px 20px;
+    border-radius: 3px;
+}
+@keyframes animate_border {
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+
+
+
+.come-by{
+    width: 400px;
+    height:60px;
+    object-fit: contain;  
+  }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+
+        .logo a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            padding: 0;
+            background-color: transparent;
+            overflow: hidden;
+        }
+
+        li {
+            padding: 0rem 1.1rem;
+            float: left;
+        }
+
+        li a {
+            color: #000;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: .7px;
+        }
+        .dev-loop{
+        width:1200px;
+        height: 800px;
+        display: inline-block;
+        
+
+
+    }
+
+       
+        li a:hover {
+            color:rgb(234, 238, 7);
+            transition: all .3s ease-in-out
+        }
+
+        #click {
+            display: none;
+        }
+
+        .menu {
+            display: none;
+        }
+
+   
+        .page-header.is-sticky {
+            position: fixed !important;
+            padding: 8px 0;
+            animation: slideDown 0.35s ease-out;
+        }
+
+        .progress-container {
+            background-color:#fcfdfd;
+            height: 4px;
+            width: 100%;
+            position: sticky;
+            top: 96px;
+
+        }
+
+        .progress-bar {
+            background-color: #0eb8b8;
+            height: 4px;
+            width: 0%;
+        }
+
+        .sticky-pro {
+            position: fixed;
+            top: 92px;
+            z-index: 11;
+        }
+
+        
+        
+
+        .detail {
+            display: grid;
+            place-items: center;
+            margin-top: 15vw;
+            font-size: 1.4rem;
+        }
+
+        @media only screen and (max-width:1024px) {
+            nav {
+                max-width: 98%;
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            html {
+                font-size: 80%;
+            }
+
+            nav {
+                max-width: 100%;
+                margin: 0 1rem;
+            }
+        }
+
+        @media only screen and (max-width:480px) {
+            html {
+                font-size: 85%;
+            }
+
+            header {
+                height: auto;
+            }
+
+            li {
+                padding: 1rem 1.1rem;
+            }
+
+            .menu {
+                display: block;
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #000;
+            }
+
+            ul {
+                background: #fff;
+                width: 100%;
+                height: 100vh;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                top: 4rem;
+                left: -100%;
+                z-index: 111111;
+            }
+
+            #click:checked~ul {
+                left: 0%;
+                transition: all 0.3s ease;
+            }
+}
+ 
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="page-header">
+            <img class="come-by" src="comScience_logo.png">
+            <div class="logo">
+               
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class="bi bi-list"></i>
+                </div>
+            </label>
+         
+            <ul>
+
+                <li><a href="loop.html" class="active">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">FACULTY</a></li>
+                <li><a href="#">RESEARCH GROUPS</a></li>
+               
+            </ul>
+           
+        </nav>
+    </header>
+
+   
+    <div class="progress-container page-header">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div>
+        <img class="need-more" src="dcs-banner.jpg">
+        <h2 class="banner-text">ENTRY REQUIREMENT</h2>
+    </div>
+    
+    <section class="course">
+
+        <h1>Courses We Offer</h1>
+        <p>Explore our array of dynamic learning opportunities, meticulously crafted to prepare you for the forefront of the tech industry.</p>
+
+
+         <div class="row">
+            <div class="course-col">
+                <h3>Short Courses</h3>
+                <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p><br>
+                <a href="intermediate.html">read more...</a>
+            </div>
+
+             <div class="course-col">
+                <h3>Undergraduate programmes</h3>
+                <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science degree.</p><br>
+                <a href="degree.html">read more...</a>
+            </div>
+
+             <div class="course-col">
+                <h3>MPhil and Msc programmes.</h3>
+                <p>Embrace world class gradate education with unique blend of cutting-edge research and industry experience.</p><br>
+                <a href="postgrad.html">read more...</a>
+            </div>
+            <div class="course-col">
+                <h3>PhD programmes.</h3>
+                <p>Our PHDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research.</p><br>
+                <a href="postgrad.html">read more...</a>
+            </div>
+        </div>
+
+    </section>    
+       
+    
+ 
+  
+    <img src="about-img2.jpeg">
+</div>
+<div class="now-okay">
+    <h1>Entry requirement </h1>
+    <br>
+    <b>Bachelor of Science in Mathematical Sciences</b>
+</div>
+<div class="asha-wo">
+<p>Mathematical Sciences (Actuarial Science, Biomathematics,  
+<b>Computer Science,</b>
+"Mathematics, Statistics, Physics)""
+</p>
+<p>
+    <b>Core:</b>
+    Credit passes in English, Core Mathematics, Integrated Science & Social Studies
+</p>
+<p>
+    <b>Electives:</b>
+    Credit passes in Elective Mathematics and any other two subjects 
+</p>
+<h2 class="wope-dodo">Bachelor of Science in Information Technology</h2>
+<P>
+    <b>Core:</b>
+    Credit passes in English, Core Mathematics, Integrated Science & Social Studies
+    <p>
+        <b>Electives</b>
+        Credit passes in any three subjects 
+    </p>
+    <h3 class="lose-come">MSc Computer science
+        <br>
+        MPhil Computer science
+        <br>
+        Ph.D.
+    </h3>
+    
+</P>
+</div>
+<div >
+    <h4 class="mad-man">Get To Know US</h4>
+<p class="jon-boy">Things get interesting because you are eager to know more , or you become eager to know more because it is interesting?</p>
+</div>
+    
+<footer>
+    <section class="footer">
+    <h4>About Us</h4>
+    <p>"Empowering Innovators. Inspiring Creators. Our CS Department cultivates the next generation of tech leaders through cutting-edge education, hands-on experience, and a dynamic community. Join us in shaping the future of technology."</p>
+    
+    <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    </div>
+    
+    </section>
+    </footer>
+
+</body>
+
+<script>
+    //processbar on scroll  
+    function progressBarScroll() {
+        let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+            height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+            scrolled = (winScroll / height) * 100;
+        document.getElementById("progressBar").style.width = scrolled + "%";
+    }
+    window.onscroll = function () {
+        progressBarScroll();
+    };
+
+</script>
+
+</html>
